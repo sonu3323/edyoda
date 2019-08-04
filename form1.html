@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form one</title>
+    <style>
+    .form
+    {
+        background: linear-gradient(red,blue);
+        padding: 50px;
+        width:50%;
+        margin-left:auto;
+        margin-right:auto; 
+       box-shadow: 0 0 40px rgba(100,20,119,0.9); 
+        
+    }
+    
+    #input-lable
+    {
+        text-align:center;
+         
+
+    }
+    .name
+    {
+        margin-bottom:5px;
+        font-size:25px;
+        color:white;
+    }
+    
+    #fill
+    {
+        width:40%;;
+
+
+
+    }
+    
+    .logos
+    {
+        width:10%;
+        padding: 20px;
+        margin-left: 45px; 
+        box-shadow: 0 1px rgba(100,20,119,0.9);
+    }
+    
+    </style>        
+
+        </head>
+<body style="background-color:lightblue">
+        <h1 style="text-align: center;font-size: 55px; text-shadow:2px 2px 5px red;">Signup</h1>
+    <form class="form">
+      
+            <div class="icons">
+                    <img class="logos"  src="http://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google" />
+                    <img class="logos" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png" alt="facebook"/>
+                    <img class="logos" src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="github"/>
+                    <img class="logos" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png" alt="linkedin"/>
+                  </div>
+      
+      
+      
+      
+      
+        <div id="input-lable">
+        <p class="name">Username:</p>
+      <input id="fill" type="text" name="username" placeholder="Sonu" required>
+    </div>
+    <div id="input-lable">
+    <p class="name">Email:</p>
+    <input id="fill" type="Email" name="Email" placeholder="sonusharmahgju.@gmail.com" required>
+    </div>
+    
+    <div id="input-lable">  
+        <p class="name">Password:</p>
+    <input id="fill" id="fill" type="password" name="password" maxlength="10">
+    </div>
+    <div id="input-lable">
+    <p class="name">Confrim-Password</p>
+    <input id="fill" type="password" name="confrim-password" maxlength="10">
+    </div>
+     <div id="input-lable">
+    <p class="name">Gender</p>
+    <input type="radio" name="Male" value="male">Male
+    <input type="radio" name="female" value="female">Female    
+    <input type="radio" name="other" value="other">Other
+</div>
+<div id="input-lable">
+
+    <p class="name">Sequrity question:</p>
+<select style="margin-bottom:10px; " name="Sequrity-check">
+<option value="first pet name">Wthat was your pet name</option>
+<option value="first job">Wthat was your first name</option>
+<option value="last name">Wthat was your last name</option>
+</select>
+</div>
+<div id="input-lable">
+<textarea id="fill" style="margin-bottom:10px; " name="answer" rows="6" cols="30"></textarea>
+<div>
+ <p class="name">Choose your language:</p>
+<input list="technologies" >
+<datalist id="technologies">
+    <option value="HTML">
+        <option value="HTML">
+         <option value="CSS">
+        <option value="JAVASCRIPT">
+        <option value="C++">
+        <option value="PHP">
+        <option value="C">
+        <option value="C#">
+        <option value="JAVA">
+        <option value="MYSQL">
+        <option value="DJOUNGO">
+        <option value="REACT.JS">
+        <option value="ANGULAR>JS">
+        <option value="NODE>JS">
+     
+    
+    
+    
+        </datalist>
+
+</div>
+
+<br>
+</div>
+<div id="input-lable">
+<input type="checkbox" name="terms" value="accept">i agree 
+all the condtions
+
+
+<br>
+<br>
+
+</div>
+
+<div style="margin-top:20px; text-align: center;">
+<input type="submit" name="submit"value="Register">
+<input type="reset" name="name" vallue="reset">
+</div>
+
+
+
+
+
+
+</form>
+
+
+</body>
+</html>
