@@ -1,0 +1,36 @@
+h1
+{
+font-size: 40px;
+margin-left:30%;
+}
+
+#topbar
+{
+background-color: lightblue;
+font-size: 30px;
+padding:24px 16px;
+}
+#links
+{
+text-decoration: none;
+margin-left:10px;
+
+}
+body{
+background-image:linear-gradient(to bottom, pink,red); 
+margin:0px;
+
+}
+
+#links:hover
+{
+color:white;
+background-color:green; 
+padding:24 16px;
+transition: 0.1s;
+}
+#links:active
+{
+color:red;
+
+}

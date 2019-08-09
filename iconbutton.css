@@ -1,0 +1,24 @@
+h1{
+    font-size: 50px;
+text-align: center;
+}
+button{
+    background-color: aqua;
+    padding: 14px 12px;
+    border:none;
+    color:black;
+    margin-left:10px;
+
+}
+button:hover{
+
+background-color: lightcoral;
+font-style:oblique;
+}
+
+
+
+#lable
+{
+    margin-left:7px;
+}
